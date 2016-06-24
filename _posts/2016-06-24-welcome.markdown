@@ -1,0 +1,11 @@
+---
+title:  "Welcome"
+date:   2016-06-24 09:10:00
+description: Hello World Post!
+---
+
+I decided sharing my knowledge, I have two reasons why I should create this blog.
+
+Generally I'm a PHP Programmer who working with Magento. In my work I resolved many strange problems connected with programming, integration between systems, performance and other stuff. I have knowledge and expirience which I can "put on the paper". It is the one of the reasons.
+
+Few months ago I became a part of the DevOps Team. In my oppinion one of the main DevOps paradigms is sharing knowledge. I need give good example to rest of our Team. It is the second of the reasons.

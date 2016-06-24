@@ -1,0 +1,45 @@
+name: Mateusz Koszutowski Blog
+description: Blogging About Everything and Nothing
+meta_description: "Mateusz Koszutowski Blog - Blogging About Everything and Nothing"
+
+aboutPage: true
+resumePage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+gems: ['jekyll-paginate']
+
+paginate: 20
+baseurl: /
+domain_name: 'http://blog.mkoszut.pl'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://blog.mkoszut.pl'
+author:         'Mateusz Koszutowski'
+authorTwitter:  'mkoszut_pl'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
