@@ -5,7 +5,7 @@ meta_description: "Mateusz Koszutowski Blog - Blogging About Everything and Noth
 aboutPage: true
 resumePage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 gems: ['jekyll-paginate']
