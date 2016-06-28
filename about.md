@@ -4,7 +4,7 @@ permalink: about/
 profile: true
 ---
 
-In general I'm PHP Programmer. In especial I'm working with Magento and trying build DevOps Team.
+In general I'm PHP Programmer. In especial I'm working with Magento and sometimes I'm trying build DevOps Team.
 
 ---
 
