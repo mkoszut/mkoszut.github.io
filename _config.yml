@@ -39,6 +39,11 @@ defaults:
             layout: post
     -
         scope:
+            path: archive
+        values:
+            layout: post
+    -
+        scope:
             path: ""
             type: drafts
         values:
