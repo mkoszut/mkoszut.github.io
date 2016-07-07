@@ -13,7 +13,7 @@ gems: ['jekyll-paginate']
 paginate: 20
 baseurl: /
 domain_name: 'http://blog.mkoszut.pl'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-17225592-13'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
