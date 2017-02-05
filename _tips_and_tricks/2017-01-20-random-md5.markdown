@@ -1,0 +1,11 @@
+---
+title:  "Random md5"
+date:   2017-01-20 09:10:00
+description: How to generate always random md5 sum
+---
+
+Sometimes we need random md5 sum. Is easy way to generate it.
+
+{% highlight bash %}
+openssl rand -base64 1024 | md5sum
+{% endhighlight %}

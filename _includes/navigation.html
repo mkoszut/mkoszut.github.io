@@ -3,15 +3,19 @@
         <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
     {% endif %}
 
+    {% if page.url != "/tips_and_tricks/" %}
+        <a href="{{ site.baseurl }}tips_and_tricks/"> Tips &amp; Tricks </a>
+    {% endif %}
+
     {% if page.url != "/about/" %}
         {% if site.aboutPage %}
-            <a href="{{ site.baseurl }}about">About </a>
+            <a href="{{ site.baseurl }}about/">About </a>
         {% endif %}
     {% endif %}
     
     {% if page.url != "/resume/" %}
         {% if site.resumePage %}
-            <a href="{{ site.baseurl }}resume">Resume </a>
+            <a href="{{ site.baseurl }}resume/">Resume </a>
         {% endif %}
     {% endif %}
     <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>

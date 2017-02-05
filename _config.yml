@@ -17,6 +17,15 @@ google_analytics: 'UA-17225592-13'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
+# Where things are
+collections:
+  archive:
+    output: true
+    permalink: /archive/:name/
+  tips_and_tricks:
+    output: true
+    permalink: /tips_and_tricks/:name/
+
 # Details for the RSS feed generator
 url:            'http://blog.mkoszut.pl'
 author:         'Mateusz Koszutowski'
@@ -39,7 +48,14 @@ defaults:
             layout: post
     -
         scope:
-            path: archive
+            path: "" # empty string for all files
+            type: archive
+        values:
+            layout: post
+    -
+        scope:
+            path: "" # empty string for all files
+            type: tips_and_tricks
         values:
             layout: post
     -
