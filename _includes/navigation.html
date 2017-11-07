@@ -1,22 +1,22 @@
 <nav class="main-nav">
     {% if page.url != "/index.html" %}
-        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
+        <a href="{{ '/' | relative_url }}"> <span class="arrow">←</span> Home </a>
     {% endif %}
 
     {% if page.url != "/tips_and_tricks/" %}
-        <a href="{{ site.baseurl }}tips_and_tricks/"> Tips &amp; Tricks </a>
+        <a href="{{ '/tips_and_tricks/' | relative_url }}"> Tips &amp; Tricks </a>
     {% endif %}
 
     {% if page.url != "/about/" %}
         {% if site.aboutPage %}
-            <a href="{{ site.baseurl }}about/">About </a>
+            <a href="{{ '/about/' | relative_url }}">About </a>
         {% endif %}
     {% endif %}
     
     {% if page.url != "/resume/" %}
         {% if site.resumePage %}
-            <a href="{{ site.baseurl }}resume/">Resume </a>
+            <a href="{{ '/resume/' | relative_url }}">Resume </a>
         {% endif %}
     {% endif %}
-    <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    <a class="cta" href="{{ '/feed.xml' | relative_url }}">Subscribe</a>
 </nav>
