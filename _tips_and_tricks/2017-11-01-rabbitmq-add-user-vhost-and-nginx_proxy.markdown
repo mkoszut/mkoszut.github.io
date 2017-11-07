@@ -1,18 +1,17 @@
 ---
-title:  "Random md5"
-date:   2017-02-05 23:11:00
-description: How to generate always random md5 sum
+title:  "RabbitMQ - add user, vhost and nginx proxy"
+date:   2017-11-07 13:51:00
+description: How to fast managing RabbitMQ 
 ---
 
-How to add user and vhost to RabbitMQ by command line? Here is answer.
+Add user and vhost:
 {% highlight bash %}
 rabbitmqctl add_vhost /test
 rabbitmqctl add_user test test
 rabbitmqctl set_permissions -p /test test "^test-.*" ".*" ".*"
 {% endhighlight %}
 
-Nginx configuration for RabbitMQ Managment Tool
-
+Nginx configuration for RabbitMQ Managment:
 {% highlight bash %}
 server {
     listen 80;
