@@ -11,7 +11,7 @@ highlighter: rouge
 gems: ['jekyll-paginate']
 
 paginate: 20
-baseurl: /
+baseurl: //
 domain_name: 'http://blog.mkoszut.pl'
 google_analytics: 'UA-17225592-13'
 disqus: false
